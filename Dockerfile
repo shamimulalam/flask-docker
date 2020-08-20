@@ -9,5 +9,4 @@ RUN pip install flask-mysql
 
 COPY . /opt/source-code
 
-#ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run
-ENTRYPOINT python /opt/source-code/app.py
+ENTRYPOINT FLASK_APP=/opt/source-code/app.py flask run
